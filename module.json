@@ -1,0 +1,42 @@
+{
+  "id": "rmu-managed-effects",
+  "title": "RMU Managed Effects",
+  "description": "A generic managed-effects engine for RMU. Starts with spells, extensible to herbs, items, and more.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Laendra"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.350"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "rmu",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "readme": "README.md",
+  "license": "LICENSE",
+  "bugs": "",
+  "socket": true,
+  "manifest": "https://github.com/deerbuster/smu-managed-effects/releases/latest/download/module.json",
+  "download": "https://github.com/deerbuster/smu-managed-effects/releases/download/v0.1.0/rmu-managed-effects.zip"
+}

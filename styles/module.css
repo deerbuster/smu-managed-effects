@@ -1,0 +1,40 @@
+/* RMU Managed Effects */
+
+.rmu-managed-effects-dialog {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.rmu-managed-effects-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.rmu-managed-effects-field > label {
+  font-weight: 600;
+}
+
+.rmu-managed-effects-static {
+  min-height: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.rmu-managed-effects-target-list {
+  width: 100%;
+  min-height: 10rem;
+}
+
+.rmu-managed-effects-duration-row {
+  display: grid;
+  grid-template-columns: minmax(6rem, 8rem) minmax(10rem, 1fr);
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.rmu-managed-effects-dialog .notes {
+  margin: 0;
+  line-height: 1.35;
+}
